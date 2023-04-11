@@ -23,6 +23,7 @@ triangles or vertices. It's also very fast.
 
 ### Installation
 
+#### macOS / Ubuntu / Debian
 ```bash
 brew install glm # on macOS
 sudo apt-get install libglm-dev # on Ubuntu / Debian
@@ -32,6 +33,14 @@ cd hmm
 make
 make install
 ```
+
+#### windows
+
+1. Clone and update submodules.
+2. Install Visual Studio 2022 if you dont have one.
+3. Install Cmake component from Visual Studio Installer if you dont installed.
+4. Use Visual Studio to open the root folder.
+5. Build.
 
 ### Usage
 
